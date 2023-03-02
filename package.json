@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/kachi33/zenithlab/issues"
   },
-  "homepage": "https://github.com/kachi33/zenithlab#readme",
-  "dependencies": {
-    "react-router-dom": "^5.3.4"
-  }
+  "homepage": "https://github.com/kachi33/zenithlab#readme"
 }
