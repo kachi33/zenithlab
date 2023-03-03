@@ -1,18 +1,14 @@
 'use strict'
-import { Route } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const App = () => {
   return (
-    React.createElement('nav', {className: 'nav-bar'}, 
-      React.createElement('a', {href:'/'}, 'Home'),
-      React.createElement('a', {href:'/About'}, 'Who we are'),
-      React.createElement('a', {href:'/Services'}, `What we've done`),
-      React.createElement('a', {href:'/Contact-us'}, 'Contact us')
-    )
+      <Navbar/>
   );
 };
 
-ReactDOM.render(
-  React.createElement(App, null),
-  document.getElementById('root')
+const render = ReactDOM.render(<App/>, document.getElementById('root')
 );
+
+babel.transform("const render = " + render.toString()).code;
+render();
