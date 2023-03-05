@@ -1,11 +1,18 @@
 {
+  "name": "Zenith-Lab",
+  "version": "1.0.0",
+  "scripts": {
+    
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^9.1.2",
     "babel-preset-react": "^6.24.1",
-    "core-js": "^3.29.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^5.3.4"
+    "core-js": "^3.29.0"
   }
 }
