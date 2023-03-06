@@ -1,2 +1,0 @@
-# zenithlab
-A website for ZENITH LABORATORAY AND DIAGNOSIS CENTER
