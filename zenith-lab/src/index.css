@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+/* .logo{ */
+  /* } */
+  .navbar .links{
+  color: #fff;
+  margin-left: auto;
+}
+.navbar a{
+  text-decoration: none;
+  margin: 10px;
+}
+.navbar a:hover{
+  color: blue;
+  cursor: pointer;
+}
