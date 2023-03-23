@@ -2,41 +2,60 @@
 
 *{
   margin: 0;
+  padding: 0;
   font-family: "Quicksand";
-  color: #222;
 }
 .navbar{
-  max-width: 100%;
+  max-width: 80%;
   display: flex;
   align-items: center;
   padding: 30px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
-/* .logo{ */
-  /* } */
 .navbar .links{
     margin-left: auto;
 }
 .navbar a{
   text-decoration: none;
   margin: 10px;
+  color: #333;
 }
 .navbar a:hover{
-  color: blue;
+  color: #f1356d;
   cursor: pointer;
 }
-.home .banner{
+.banner{
   background-image: url('Banner-doctor.jpeg');
   /* background-image: linear-gradient(red, blue,green); */
+  /* background-image: linear-gradient(red, blue, url('Banner-doctor.jpeg')); */
   width: 100%;
-  height: 120vh;
-  margin-top: -110px;
+  height: 90vh;
+  margin-top: -150px;
   background-size: cover;
   background-position: center;
 }
-.home h1{
-  color: #333;
+.callToAction{
+  display: flex;
+  padding-top: 280px;
+  margin: 0 auto;
+  max-width: 80%;
+  
+}
+.callToAction h1, .callToAction p{
+  padding: 8px;
+  text-align: center;
+}
+.btnCallToAction{
+  display: flex;
+  align-self: baseline;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f1356d;
+  color: #ffff;
+  cursor: pointer;
+  width: 8rem;
 }
 .home section{
   height: 100vh;

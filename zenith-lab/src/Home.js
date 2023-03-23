@@ -1,13 +1,10 @@
+import CallToAction from "./Call-to-Action";
+
 const Home = () => {
     return ( 
         <div className="home">
             <div className="banner">
-                <h1> Welcome</h1>
-            </div>
-            <div>
-                <section>
-
-                </section>
+                <CallToAction/>
             </div>
         </div>
      );
