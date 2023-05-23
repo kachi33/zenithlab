@@ -1,4 +1,4 @@
-import CallToAction from "./Call-to-Action";
+import CallToAction from "../Call-to-Action";
 
 const Home = () => {
     return ( 

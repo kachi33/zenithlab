@@ -11,17 +11,19 @@ const Footer = () => {
                 </div>
                 <div className="support">
                     <h4>Support</h4>
-                    <Link to={''}>Terms and conditions</Link>
-                    <Link to={''}>FAQuestions</Link>
-                    <Link to={''}>Privacy policy</Link>
-                    <Link to={''}>Company Licence</Link>
+                    <ul>
+                        <li><Link to={''}>Terms and conditions</Link></li>
+                        <li><Link to={''}>FAQuestions</Link></li>
+                        <li><Link to={''}>Privacy policy</Link></li>
+                        <li><Link to={''}>Company Licence</Link></li>
+                    </ul>
                 </div>
                 <div className="contact">
                     <h4>Get In Touch</h4>
                     <p> Call us at:<br/>
                         <Link>+2347 778 9933</Link>
                     </p>
-                    <p> Support avaliable Mon to Fri : 8:00am - 6pm
+                    <p> Support avaliable Mon to Fri : 8:00am - 6pm<br/>
                         <Link>support@zenithlab.com</Link>
                     </p>
                 </div>

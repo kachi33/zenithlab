@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Route, Switch  } from 'react-router-dom';
-import Contactbar from './Contactbar';
-import Footer from './Footer';
-import Home from './Home';
-import './index.css';
-import Navbar from './Navbar';
+import Header from './Components/Header';
+// import Footer from './Footer';
+// import Home from './Home';
 
 
 function App() {
@@ -11,14 +9,13 @@ function App() {
     <Router>
       <div className="App">
 
-        <Contactbar/>
-        <Navbar/>
+        <Header/>
         <Switch>
           <Route path={'/'}>
-            <Home/>
+            {/* <Home/> */}
           </Route>
         </Switch>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </Router>
   )

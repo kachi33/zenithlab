@@ -1,0 +1,83 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  color: #457b9d;
+}
+a{
+  text-decoration: none;
+}
+header{
+  max-width: 100%;
+  height: auto;
+}
+.top-contact-bar{
+  background-color: #1d3557;
+  overflow: hidden;
+  /* height: 50px; */
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px; /* set a max-width for larger screens */
+}
+.flex-contain{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  box-sizing: content-box;
+}
+.top-contact-bar a{
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 14px 16px;
+}
+.flex-grow{
+  flex: 2;
+}
+.top-contact-bar a:hover{
+  cursor: pointer;
+}
+.top-contact-bar a:active{
+  color: #e63946;
+}
+.nav-container{
+  height: 30px;
+  display: flex;
+  padding: 30px 10%;
+  justify-content: space-between;
+
+}
+.navbar{
+  align-items: center;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar img, .socials img{
+  width: 150px;
+}
+.navbar a{
+  color: #333;
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: #e63946;
+  cursor: pointer;
+}
+.navbar button{
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: #f2f2f2;
+  font-weight: 600;
+  background-color: #1d3557;
+  border: none;
+}
+.navbar button:hover{
+  background-color: #e63946;
+}
