@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-
+    // website navigation 
       <Navbar/>
       <Switch>
         <Route path={'/'}>
